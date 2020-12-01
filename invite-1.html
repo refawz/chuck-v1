@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>New Website</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,500,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+
+    <!-- Simplebar -->
+    <link href="css/simplebar.css" rel="stylesheet">
+
+    <!-- JQuery UI -->
+    <link href="css/jquery-ui.min.css" rel="stylesheet">
+    
+    <!-- Timepicker -->
+    <link href="css/jquery.timepicker.min.css" rel="stylesheet">
+
+    <!-- font-awesome.css -->
+    <link href="css/fontawesome/font-awesome.css" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet">
+
+    <!-- Slick -->
+    <link href="css/slick/slick.css" rel="stylesheet">
+    <link href="css/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">WebsiteName</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Create Event</a></li>
+            <li><a href="#">My Events</a></li>
+            <li><a href="#" class="user"><span class="text">John Smith</span> <span class="image"><img src="images/individu-1.png" alt=""></span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Footer Begin -->
+    <section class="create-event sec-hq-pad">
+      <div class="container">
+        <div class="content-wrap">
+          <div class="availability-wrap">         
+            <div class="col-md-5 col-sm-7">
+              <div class="right text-center">
+                <h3 class="header">Event Invitation from XXX</h3>
+                <h4>Enter your availability</h4>
+                <p class="text mar-b-20">Your friend XXX is planning an upcoming event and they'd like you to share your availability.  Select up to two dates that you're available, and list the time range for each day.  You can even suggest things to do on each day.</p>
+                <div class="image">
+                  <img src="http://placehold.it/400x200" alt="">
+                </div>
+                <div class="mar-t-20">
+                  <a href="" class="def-btn btn-solid btn-green btn-disabled">Cancel</a>
+                  <a href="" class="def-btn btn-solid btn-green">Save your selections</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 col-sm-7">
+              <div class="left">
+                <div class="text-center mar-b-20">
+                  <h3>Your Availability</h3>
+                </div>
+                <form class="form-horizontal">
+                  <div class="mar-b-10">
+                    <div class="form-group">
+                      <div class="col-md-4 col-sm-4">
+                        <b>Date:</b>
+                        <input type="text" class="form-control def-input" id="datepicker">
+                      </div>
+                      <div class="col-md-4 col-sm-4">
+                        <b>Start Time:</b>
+                        <input type="text" class="form-control def-input timepicker">
+                      </div>
+                      <div class="col-md-4 col-sm-4">
+                        <b>End Time:</b>
+                        <input type="text" class="form-control def-input timepicker">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mar-b-10">
+                    <div class="form-group">
+                      <div class="col-md-12 mar-b-10">
+                        <b>Event Suggestion:</b>
+                      </div>
+                      <div class="col-md-4 col-sm-4 mar-b-10">
+                        <div class="btn-halfwidth-wrap">
+                          <a href="" class="def-btn btn-outline btn-halfwidth">Category</a>
+                          <a href="" class="def-btn btn-outline btn-halfwidth">Place</a>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-sm-6 mar-b-10">
+                        <select name="" id="" class="def-input def-select form-control">
+                        <option value="" disabled selected>Select Category</option>
+                        <option value="concerts">Concerts & Shows</option>
+                        <option value="food">Food & Drinks</option>
+                        <option value="homeevents">In home Events</option>
+                        <option value="music">Music & Arts</option>
+                        <option value="sports">Sports & Recreation</option>
+                        </select>
+                      </div>
+                      <div class="col-md-2 col-sm-2 mar-b-10">
+                        <a href="" class="def-btn btn-solid btn-green btn-fullwidth">Add</a>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="table-responsive table-wrap">
+                  <div class="text-center">
+                    <h4 class="mar-b-20">Your Selection</h4>
+                  </div>
+                  <table class="selection-table">
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Start</th>
+                        <th>End</th>
+                        <th>Suggestion</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Mon, Oct 15, 2016</td>
+                        <td>11:00am</td>
+                        <td>12:30pm</td>
+                        <td>Mission BBQ, Canton, MD</td>
+                        <td class="text-center"><a href="" class="def-btn btn-solid btn-del"><i class="fa fa-trash"></i></a></td>
+                      </tr>
+                      <tr>
+                        <td>Mon, Oct 15, 2016</td>
+                        <td>11:00am</td>
+                        <td>12:30pm</td>
+                        <td>Mission BBQ, Canton, MD</td>
+                        <td class="text-center"><a href="" class="def-btn btn-solid btn-del"><i class="fa fa-trash"></i></a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer End -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-slider.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/simplebar.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
